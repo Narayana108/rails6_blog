@@ -25,5 +25,5 @@ Things you may want to cover:
 
 # Documentation
 
-[Rails Guide](https://guides.rubyonrails.org/) 
-[API Reference](https://api.rubyonrails.org/v6.0.3.1/)
+- [Rails Guide](https://guides.rubyonrails.org/) 
+- [API Reference](https://api.rubyonrails.org/v6.0.3.1/)
