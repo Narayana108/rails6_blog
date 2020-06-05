@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# Documentation
+
+[Rails Guide](https://guides.rubyonrails.org/) 
+[API Reference](https://api.rubyonrails.org/v6.0.3.1/)
