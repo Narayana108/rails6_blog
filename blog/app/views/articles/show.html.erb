@@ -8,5 +8,18 @@
   <%= @article.text %>
 </p>
 
+<% if @article.comments.any? %>
+  <h2>Comments</h2>
+<% end %>
+
+<% # @article.comments.each do |comment| %> 
+<!-- render method automatically loops through the comments. as in the line above -->
+
+<%= render @article.comments %>
+
+<h2>Add a comment:</h2>
+
+<%= render 'comments/form' %>
+
 <%= link_to 'Edit', edit_article_path(@article) %> |
 <%= link_to 'Back', articles_path %>
