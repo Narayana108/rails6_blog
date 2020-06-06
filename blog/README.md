@@ -1,29 +1,47 @@
-# README
+# Rails Blog 
+[Blog Tutorial]("https://guides.rubyonrails.org/getting_started.html")
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Dependencies
+ 
+### System dependencies
+- `gem install rails -v 6.0.2` 
+- Ruby version: `2.7.1`
+- Database: `sqlite3`
 
-Things you may want to cover:
 
-* Ruby version
+# Commands
+ 
+### Start server
+- `rails server`
 
-* System dependencies
+### Database initialization
+- `rails db:schema:load`
 
-* Configuration
+### Migrate Database
+- `rails db:migrate`
 
-* Database creation
+### Drop Database
+- `rails db:drop`
 
-* Database initialization
+### Rails console
+```sh
+$ rails console
+Article.all
+Comment.all
+```
 
-* How to run the test suite
+### Rails dbconsole
+```sh
+$ rails dbconsole
+.schema articles
+SELECT "articles".- FROM "articles";
+.tables
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### How to run the test suite
+- To Do
 
-* Deployment instructions
-
-* ...
 
 # Documentation
-
 - [Rails Guide](https://guides.rubyonrails.org/) 
 - [API Reference](https://api.rubyonrails.org/v6.0.3.1/)

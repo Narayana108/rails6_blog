@@ -7,3 +7,14 @@
   <strong>Comment:</strong>
   <%= comment.body %>
 </p>
+
+<p>
+  <%= link_to 'Destroy Comment', [comment.article, comment], 
+                method: :delete,
+                data: { confirm: 'Are you sure?'}%>
+</p>
+
+<%# debugging, viewing values in console %>
+<%# puts "article", comment.article.inspect, "test" %>
+<%# debugging, viewing values in browser %>
+<%# debug comment.inspect %>
