@@ -3,9 +3,8 @@
 
 # Dependencies
  
-### System dependencies
-- `gem install rails -v 6.0.2` 
 - Ruby version: `2.7.1`
+- `gem install rails -v 6.0.2` 
 - Database: `sqlite3`
 
 
