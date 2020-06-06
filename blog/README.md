@@ -1,5 +1,5 @@
 # Rails Blog 
-[Blog Tutorial]("https://guides.rubyonrails.org/getting_started.html")
+[Blog Tutorial](https://guides.rubyonrails.org/getting_started.html)
 
 # Dependencies
  
