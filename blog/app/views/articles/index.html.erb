@@ -1,5 +1,7 @@
 <h1> Listing Articles </h1>
-<%= link_to 'New Article', new_article_path %>
+<div id="nav">
+  <button class="knoppie knoppie-color"><%= link_to 'New Article', new_article_path %></button>
+</div>
 <p></p>
 
 <table>
@@ -11,8 +13,8 @@
 
  <% @article.each do |article| %>
    <tr>
-     <td><%= article.title %></td>
-     <td><%= article.text %></td>
+     <td class="twidth"><%= article.title %></td>
+     <td class="twidth"><%= article.text %></td>
      <td><%= link_to 'Show', article_path(article) %> </td>
      <td><%= link_to 'Edit', edit_article_path(article) %></td>
      <td><%= link_to 'Destroy', article_path(article),
