@@ -22,25 +22,37 @@ body {
 }
 
 p,h3,h4,h6,strong,a {
- color: white;
+  color: white;
 }
 
 h1, h2 {
- text-align: center;
- color: white;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+ text: underline;
 }
 
 #nav {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #40215e6b;
-    color: #fff;
-
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #40215e6b;
+  color: #fff;
 }
 
 #content {
-  margin-left: 75px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0406077a;
+  padding: 30px;
+  margin-top: 45px;
+  border-style: solid;
+  border-color: #444444;
+  border-width: 3px;
+  border-radius: 4px;
 }
 
 .knoppie {
@@ -61,12 +73,10 @@ h1, h2 {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: #40215e6b;
-    color: #fff;
-    margin-top: 90px;
-    
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #40215e6b;
+  color: #fff;
+  margin-top: 90px;
 }
-

@@ -3,30 +3,28 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 table {
-
- padding: 20px;
-}
-
-tbody {
-
-}
+  table-layout: auto; 
+  width: 80%;
+  padding: 20px;
+  margin-left: auto; 
+  margin-right: auto;
+} 
 
 tr { // table row
- background-color: #0406077a;
+  background-color: #0406077a;
 }
 
 th { // table heading
- font-weight: bold;
- color: #a62bc89e;
-
+  font-weight: bold;
+  color: #a62bc89e;
 }
 
 td { // table data
- padding: 5px 10px 5px 10px;
- color: white;
+  padding: 5px 10px 5px 10px;
+  color: white;
 }
 
 .twidth {
- padding: 5px 10px 5px 10px;
- width: 200px;
+  padding: 5px 10px 5px 10px;
+  width: 200px;
 }
