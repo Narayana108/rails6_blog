@@ -1,4 +1,7 @@
 <div id="content">
+
+  <h1 class="comment_h1">Article</h1>
+
   <p>
     <strong>Title:</strong>
     <%= @article.title %>
@@ -10,7 +13,7 @@
   </p>
 
   <% if @article.comments.any? %>
-    <h2>Comments</h2>
+    <h2 class="comment_h2">Comments</h2>
   <% end %>
 
   <% # @article.comments.each do |comment| %> 
@@ -18,7 +21,7 @@
 
   <%= render @article.comments %>
 
-  <h2>Add a comment:</h2>
+  <h2 class="comment_h2">Add a comment:</h2>
 
   <%= render 'comments/form' %>
 

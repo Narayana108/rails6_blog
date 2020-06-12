@@ -17,14 +17,35 @@ tr { // table row
 th { // table heading
   font-weight: bold;
   color: #a62bc89e;
+  padding: 10px;
+  font-size: 20px;
 }
 
 td { // table data
-  padding: 5px 10px 5px 10px;
+  padding: 10px 15px 10px 15px;
   color: white;
+
 }
 
-.twidth {
-  padding: 5px 10px 5px 10px;
-  width: 200px;
+#article_text {
+  border-radius: 5px;
+  width: 90%;
+  height: 150px;
+  padding: 8px 8px 8px 5px;
+  margin-top: 10px;
+}
+
+#article_text:focus {
+  border: blue;
+}
+
+#article_title {
+  border-radius: 5px;
+  padding: 8px 8px 8px 5px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
 }
