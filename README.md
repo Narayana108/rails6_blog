@@ -1,6 +1,12 @@
 # Rails Blog 
 [Blog Tutorial](https://guides.rubyonrails.org/getting_started.html)
 
+# Preview
+![alt text](preview1.png "preview")
+![alt text](preview2.png "preview")
+![alt text](preview3.png "preview")
+
+
 # Dependencies
  
 - Ruby version: `2.7.1`
